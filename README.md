@@ -123,7 +123,7 @@ script>
 Jika input tidak sesuai, muncul pesan "Grade tidak valid".
 
 
-    Berikut hasil pada Browser
+Berikut hasil pada Browser
 
 <img width="740" height="364" alt="Screenshot 2025-10-24 060724" src="https://github.com/user-attachments/assets/36b0c3ea-ca68-46e5-a4b6-060ed1ad7f69" />
 
