@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pembuatan Form dan Button</title>
+    <script>
+        // Fungsi untuk menampilkan hasil input
+        function tampilkanNama() {
+            let nama = document.getElementById("nama").value;
+            document.getElementById("hasil").innerHTML = "Halo, " + nama + "!";
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Input dan Button</h2>
+
+    <!-- Form Input -->
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama kamu">
+        <button type="button" onclick="tampilkanNama()">Tampilkan</button>
+    </form>
+
+    <!-- Hasil tampil di sini -->
+    <p id="hasil"></p>
+</body>
+</html>

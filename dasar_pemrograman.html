@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dasar Pemrograman di JavaScript</title>
+</head>
+<body>
+    <h2>Dasar Pemrograman di JavaScript</h2>
+
+    <script>
+        // --- Operasi Aritmatika ---
+        let a = 10;
+        let b = 5;
+
+        document.write("<h3>Operasi Aritmatika</h3>");
+        document.write("a = " + a + ", b = " + b + "<br>");
+        document.write("Penjumlahan (a + b) = " + (a + b) + "<br>");
+        document.write("Pengurangan (a - b) = " + (a - b) + "<br>");
+        document.write("Perkalian (a * b) = " + (a * b) + "<br>");
+        document.write("Pembagian (a / b) = " + (a / b) + "<br>");
+        document.write("Sisa bagi (a % b) = " + (a % b) + "<br><br>");
+
+        // --- Seleksi Kondisi if..else ---
+        document.write("<h3>Seleksi Kondisi if..else</h3>");
+        let nilai = prompt("Masukkan nilai ujianmu:");
+        if (nilai >= 75) {
+            document.write("Selamat, kamu lulus!<br>");
+        } else {
+            document.write("Maaf, kamu belum lulus.<br>");
+        }
+
+        // --- Operator Switch ---
+        document.write("<h3>Seleksi Kondisi switch</h3>");
+        let grade = prompt("Masukkan grade (A/B/C/D):");
+        switch (grade) {
+            case "A":
+                document.write("Nilai kamu sangat baik!<br>");
+                break;
+            case "B":
+                document.write("Nilai kamu baik.<br>");
+                break;
+            case "C":
+                document.write("Nilai kamu cukup.<br>");
+                break;
+            case "D":
+                document.write("Nilai kamu kurang.<br>");
+                break;
+            default:
+                document.write("Grade tidak valid!<br>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perhitungan Otomatis dengan Checkbox</title>
+    <script>
+        function hitungTotal() {
+            let total = 0;
+
+            // Ambil semua checkbox
+            let item1 = document.getElementById("item1");
+            let item2 = document.getElementById("item2");
+            let item3 = document.getElementById("item3");
+
+            // Cek apakah dipilih
+            if (item1.checked) total += parseInt(item1.value);
+            if (item2.checked) total += parseInt(item2.value);
+            if (item3.checked) total += parseInt(item3.value);
+
+            // Tampilkan hasil
+            document.getElementById("total").innerHTML = "Total harga: Rp " + total.toLocaleString();
+        }
+    </script>
+</head>
+<body>
+    <h2>Perhitungan Otomatis (Checkbox)</h2>
+
+    <form>
+        <input type="checkbox" id="item1" value="15000" onclick="hitungTotal()"> Nasi Goreng (Rp 15.000)<br>
+        <input type="checkbox" id="item2" value="10000" onclick="hitungTotal()"> Kwetiau (Rp 10.000)<br>
+        <input type="checkbox" id="item3" value="18000" onclick="hitungTotal()"> Ayam Bakar (Rp 18.000)<br><br>
+    </form>
+
+    <p id="total">Total harga: Rp 0</p>
+</body>
+</html>
