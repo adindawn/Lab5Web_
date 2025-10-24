@@ -224,7 +224,7 @@ Berikut hasil pada Browser
   Membuat file di VSCode dengan nama ```checkbox_total``` pada file ini menampilkan daftar menu makanan dengan checkbox dan menghitung total harga otomatis setiap kali pengguna mencentang atau menghapus pilihan. Perhitungan ini dilakukan menggunakan Javascript tanpa perlu menekan tombol apapun. Di file ini terdapat elemen ```<input type="checkbox">``` setiap makanan memiliki nilai harga di atribut ```value```. Event ```onclick="hitungTotal()"``` digunakan agar fungsi dijalankan setiap kali checkbox diklik. 
 
 
-    Berikut hasil pada Browser 
+Berikut hasil pada Browser 
 
 <img width="449" height="290" alt="Screenshot 2025-10-24 065729" src="https://github.com/user-attachments/assets/03011fa9-f889-4645-926b-42c6d2c667f7" />
 
