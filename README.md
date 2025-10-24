@@ -23,7 +23,7 @@
   Membuat file di VSCode dengan nama ```lab5_javascript.html```. Pada file ini memperkenalkan JAVASCRIPT dasar didalamnya terdapat dua perintah utama: 
   * ```document.write("Hello World")``` perintah ini untuk menampilkan teks langsung di halaman web.
   * ```console.log("Hello World")``` perintah ini untuk menampilkan teks di console  browser.
-Tujuan dari perintah ini untuk menunjukkan cara Javascript berinteraksi dengan halaman web dam console.
+Tujuan dari perintah ini untuk menunjukkan cara Javascript berinteraksi dengan halaman web dan console.
 
 
    Berikut hasil pada Browser
@@ -119,7 +119,8 @@ script>
     - B: Nilai baik
     - C: Nilai cukup
     - D: Nilai kurang
-  Jika input tidak sesuai, muncul pesan "Grade tidak valid".
+
+Jika input tidak sesuai, muncul pesan "Grade tidak valid".
 
 
     Berikut hasil pada Browser
@@ -132,7 +133,7 @@ script>
 
 
 
-# PMEBUATAN FORMULIR DAN TOMBOL 
+# PEMBUATAN FORMULIR DAN TOMBOL 
 
 ```
 <!DOCTYPE html>
@@ -167,7 +168,7 @@ script>
 
   Membuat file di VSCode dengan nama ```form_button.html```. Pada file ini halaman HTML sederhana yang berisi form(input teks + tombol) dan skrip Javascript di elemen ```<head>```. File ini terdapat dua elemen yaitu: 
   * elemen ```<input type="text">``` untuk meminta pengguna memasukkan nama, di dalam elemen ini terdapat atribut ```id="nama"``` digunakan agar javascript bisa mengambil nilainya.
-  * eleme ```<button>``` memiliki atribut ```onclick="tampilkanNama()", yang berarti saat tombol di klik, fungsi ```tampilanNama()``` akan dijalankan.
+  * eleme ```<button>``` memiliki atribut ```onclick="tampilkanNama()", yang berarti saat tombol di klik, fungsi ```tampilanNama()" akan dijalankan.
 
 
     Berikut hasil pada Browser
