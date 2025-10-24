@@ -210,9 +210,9 @@ Berikut hasil pada Browser
     <h2>Perhitungan Otomatis (Checkbox)</h2>
 
     <form>
-        <input type="checkbox" id="item1" value="10000" onclick="hitungTotal()"> Nasi Goreng (Rp 10.000)<br>
-        <input type="checkbox" id="item2" value="8000" onclick="hitungTotal()"> Mie Ayam (Rp 8.000)<br>
-        <input type="checkbox" id="item3" value="12000" onclick="hitungTotal()"> Ayam Geprek (Rp 12.000)<br><br>
+        <input type="checkbox" id="item1" value="15000" onclick="hitungTotal()"> Nasi Goreng (Rp 15.000)<br>
+        <input type="checkbox" id="item2" value="10000" onclick="hitungTotal()"> Kwetiau (Rp 10.000)<br>
+        <input type="checkbox" id="item3" value="18000" onclick="hitungTotal()"> Ayam Bakar (Rp 18.000)<br><br>
     </form>
 
     <p id="total">Total harga: Rp 0</p>
